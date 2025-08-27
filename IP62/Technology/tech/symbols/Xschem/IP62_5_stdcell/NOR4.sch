@@ -109,16 +109,16 @@ N 110 -60 130 -60 {
 lab=GND}
 N 130 -60 130 -0 {
 lab=GND}
-C {ipin.sym} 30 -320 0 0 {name=p1 lab=A}
-C {ipin.sym} 30 -280 0 0 {name=p2 lab=B
+C {devices/ipin.sym} 30 -320 0 0 {name=p1 lab=A}
+C {devices/ipin.sym} 30 -280 0 0 {name=p2 lab=B
 }
-C {opin.sym} 480 -110 0 0 {name=p3 lab=Y}
-C {iopin.sym} 470 -440 0 0 {name=p4 lab=VDD}
-C {iopin.sym} 480 0 0 0 {name=p5 lab=GND
+C {devices/opin.sym} 480 -110 0 0 {name=p3 lab=Y}
+C {devices/iopin.sym} 470 -440 0 0 {name=p4 lab=VDD}
+C {devices/iopin.sym} 480 0 0 0 {name=p5 lab=GND
 }
-C {ipin.sym} 30 -240 0 0 {name=p6 lab=C
+C {devices/ipin.sym} 30 -240 0 0 {name=p6 lab=C
 }
-C {ipin.sym} 30 -160 0 0 {name=p7 lab=D}
+C {devices/ipin.sym} 30 -160 0 0 {name=p7 lab=D}
 C {IP62LIB/MP.sym} 370 -400 0 0 {name=XM8 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 370 -320 0 0 {name=XM2 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 370 -240 0 0 {name=XM3 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}

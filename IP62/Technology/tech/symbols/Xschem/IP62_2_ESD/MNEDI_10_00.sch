@@ -136,8 +136,8 @@ N 810 30 810 80 {
 lab=S}
 N 920 30 920 80 {
 lab=S}
-C {iopin.sym} -70 -80 0 1 {name=p1 lab=D}
-C {iopin.sym} -70 80 0 1 {name=p2 lab=S}
+C {devices/iopin.sym} -70 -80 0 1 {name=p1 lab=D}
+C {devices/iopin.sym} -70 80 0 1 {name=p2 lab=S}
 C {MNE.sym} 0 0 0 0 {name=XM1 model=MNE w=50u l=2u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 dm=1}
 C {MNE.sym} 110 0 0 0 {name=XM2 model=MNE w=50u l=2u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 dm=1}
 C {MNE.sym} 220 0 0 0 {name=XM3 model=MNE w=50u l=2u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 dm=1}

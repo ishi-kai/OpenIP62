@@ -539,15 +539,15 @@ N 1500 -690 1500 -680 {
 lab=#net17}
 N 880 -250 880 -110 {
 lab=#net9}
-C {ipin.sym} 40 -660 0 0 {name=p1 lab=CK}
-C {opin.sym} 1890 -600 0 0 {name=p2 lab=Q}
-C {ipin.sym} 50 -130 0 0 {name=p3 lab=SET
+C {devices/ipin.sym} 40 -660 0 0 {name=p1 lab=CK}
+C {devices/opin.sym} 1890 -600 0 0 {name=p2 lab=Q}
+C {devices/ipin.sym} 50 -130 0 0 {name=p3 lab=SET
 }
-C {ipin.sym} 40 -550 0 0 {name=p4 lab=D}
-C {opin.sym} 1890 -480 0 0 {name=p5 lab=QB
+C {devices/ipin.sym} 40 -550 0 0 {name=p4 lab=D}
+C {devices/opin.sym} 1890 -480 0 0 {name=p5 lab=QB
 }
-C {iopin.sym} 1890 -820 0 0 {name=p6 lab=VDD}
-C {iopin.sym} 1900 0 0 0 {name=p7 lab=GND}
+C {devices/iopin.sym} 1890 -820 0 0 {name=p6 lab=VDD}
+C {devices/iopin.sym} 1900 0 0 0 {name=p7 lab=GND}
 C {IP62LIB/MP.sym} 70 -720 0 0 {name=XM34 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 420 -720 0 0 {name=XM17 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 540 -720 0 0 {name=XM4 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}

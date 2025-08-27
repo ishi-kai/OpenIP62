@@ -153,13 +153,13 @@ N 380 -90 410 -90 {
 lab=VDD}
 N 400 -190 400 -50 {
 lab=#net4}
-C {ipin.sym} 30 -250 0 0 {name=p1 lab=B}
-C {ipin.sym} 30 -300 0 0 {name=p2 lab=A}
-C {opin.sym} 620 -140 0 0 {name=p3 lab=Y}
-C {iopin.sym} 620 -420 0 0 {name=p4 lab=VDD}
-C {iopin.sym} 620 0 0 0 {name=p5 lab=GND}
-C {ipin.sym} 30 -220 0 0 {name=p6 lab=C}
-C {ipin.sym} 30 -160 0 0 {name=p7 lab=D}
+C {devices/ipin.sym} 30 -250 0 0 {name=p1 lab=B}
+C {devices/ipin.sym} 30 -300 0 0 {name=p2 lab=A}
+C {devices/opin.sym} 620 -140 0 0 {name=p3 lab=Y}
+C {devices/iopin.sym} 620 -420 0 0 {name=p4 lab=VDD}
+C {devices/iopin.sym} 620 0 0 0 {name=p5 lab=GND}
+C {devices/ipin.sym} 30 -220 0 0 {name=p6 lab=C}
+C {devices/ipin.sym} 30 -160 0 0 {name=p7 lab=D}
 C {IP62LIB/MP.sym} 360 -380 0 0 {name=XM10 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 360 -300 0 0 {name=XM2 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 360 -220 0 0 {name=XM3 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}

@@ -20,8 +20,8 @@ N -130 260 0 260 {
 lab=D}
 N 0 220 0 260 {
 lab=D}
-C {iopin.sym} -130 -260 0 1 {name=p1 lab=S}
-C {iopin.sym} -130 260 0 1 {name=p2 lab=D}
+C {devices/iopin.sym} -130 -260 0 1 {name=p1 lab=S}
+C {devices/iopin.sym} -130 260 0 1 {name=p2 lab=D}
 C {IP62_2_ESD/MPEDI_08_00.sym} -40 -170 0 0 {name=x4}
 C {IP62_2_ESD/MPEDI_08_00.sym} -40 -50 0 0 {name=x3}
 C {IP62_2_ESD/MPEDI_08_00.sym} -40 70 0 0 {name=x2}

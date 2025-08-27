@@ -63,10 +63,10 @@ N 200 -130 200 -90 {
 lab=Y}
 N 100 0 250 0 {
 lab=GND}
-C {ipin.sym} 30 -110 0 0 {name=p1 lab=A}
-C {opin.sym} 250 -110 0 0 {name=p2 lab=Y}
-C {iopin.sym} 250 -220 0 0 {name=p3 lab=VDD}
-C {iopin.sym} 250 0 0 0 {name=p5 lab=GND}
+C {devices/ipin.sym} 30 -110 0 0 {name=p1 lab=A}
+C {devices/opin.sym} 250 -110 0 0 {name=p2 lab=Y}
+C {devices/iopin.sym} 250 -220 0 0 {name=p3 lab=VDD}
+C {devices/iopin.sym} 250 0 0 0 {name=p5 lab=GND}
 C {IP62LIB/MP.sym} 60 -160 0 0 {name=XM7 model=PMOS w=10.2u l=1u m=2 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 160 -160 0 0 {name=XM1 model=PMOS w=10.2u l=1u m=5 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MN.sym} 60 -60 0 0 {name=XM3 model=NMOS w=3.4u l=1u m=2 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}

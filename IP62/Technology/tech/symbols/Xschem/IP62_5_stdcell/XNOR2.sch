@@ -141,20 +141,20 @@ N 130 -240 180 -240 {
 lab=GND}
 N 180 -240 180 -140 {
 lab=GND}
-C {lab_wire.sym} 80 -420 0 0 {name=p2 sig_type=std_logic lab=B
+C {devices/lab_wire.sym} 80 -420 0 0 {name=p2 sig_type=std_logic lab=B
 }
-C {lab_wire.sym} 240 -420 0 0 {name=p3 sig_type=std_logic lab=A}
-C {lab_wire.sym} 730 -360 0 0 {name=p5 sig_type=std_logic lab=A}
-C {lab_wire.sym} 730 -120 0 0 {name=p6 sig_type=std_logic lab=A}
-C {lab_wire.sym} 730 -460 0 0 {name=p8 sig_type=std_logic lab=B
+C {devices/lab_wire.sym} 240 -420 0 0 {name=p3 sig_type=std_logic lab=A}
+C {devices/lab_wire.sym} 730 -360 0 0 {name=p5 sig_type=std_logic lab=A}
+C {devices/lab_wire.sym} 730 -120 0 0 {name=p6 sig_type=std_logic lab=A}
+C {devices/lab_wire.sym} 730 -460 0 0 {name=p8 sig_type=std_logic lab=B
 }
-C {lab_wire.sym} 500 -140 0 0 {name=p9 sig_type=std_logic lab=B
+C {devices/lab_wire.sym} 500 -140 0 0 {name=p9 sig_type=std_logic lab=B
 }
-C {iopin.sym} 50 -520 2 0 {name=p10 lab=VDD}
-C {iopin.sym} 50 -40 2 0 {name=p11 lab=GND}
-C {ipin.sym} 50 -140 0 0 {name=p12 lab=A}
-C {ipin.sym} 50 -240 0 0 {name=p13 lab=B}
-C {opin.sym} 900 -290 0 0 {name=p14 lab=Y}
+C {devices/iopin.sym} 50 -520 2 0 {name=p10 lab=VDD}
+C {devices/iopin.sym} 50 -40 2 0 {name=p11 lab=GND}
+C {devices/ipin.sym} 50 -140 0 0 {name=p12 lab=A}
+C {devices/ipin.sym} 50 -240 0 0 {name=p13 lab=B}
+C {devices/opin.sym} 900 -290 0 0 {name=p14 lab=Y}
 C {IP62LIB/MP.sym} 90 -420 0 0 {name=XM10 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 250 -420 0 0 {name=XM1 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 520 -420 0 0 {name=XM2 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}

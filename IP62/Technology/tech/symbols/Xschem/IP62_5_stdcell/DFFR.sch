@@ -469,46 +469,46 @@ N 590 -130 590 -60 {
 lab=GND}
 N 540 -60 590 -60 {
 lab=GND}
-C {iopin.sym} 150 -1180 2 0 {name=p10 lab=VDD}
-C {iopin.sym} 150 -370 2 0 {name=p11 lab=GND}
-C {ipin.sym} 140 -190 0 0 {name=p12 lab=CK}
-C {ipin.sym} 160 -830 0 0 {name=p13 lab=D}
-C {opin.sym} 2320 -830 0 0 {name=p14 lab=Q}
-C {opin.sym} 2330 -880 0 0 {name=p6 lab=QB}
-C {ipin.sym} 630 -490 0 0 {name=p9 lab=RST}
-C {lab_wire.sym} 430 -190 0 0 {name=p15 sig_type=std_logic lab=CLK
+C {devices/iopin.sym} 150 -1180 2 0 {name=p10 lab=VDD}
+C {devices/iopin.sym} 150 -370 2 0 {name=p11 lab=GND}
+C {devices/ipin.sym} 140 -190 0 0 {name=p12 lab=CK}
+C {devices/ipin.sym} 160 -830 0 0 {name=p13 lab=D}
+C {devices/opin.sym} 2320 -830 0 0 {name=p14 lab=Q}
+C {devices/opin.sym} 2330 -880 0 0 {name=p6 lab=QB}
+C {devices/ipin.sym} 630 -490 0 0 {name=p9 lab=RST}
+C {devices/lab_wire.sym} 430 -190 0 0 {name=p15 sig_type=std_logic lab=CLK
 }
-C {lab_wire.sym} 580 -190 0 0 {name=p16 sig_type=std_logic lab=CKB
+C {devices/lab_wire.sym} 580 -190 0 0 {name=p16 sig_type=std_logic lab=CKB
 }
-C {lab_wire.sym} 670 -490 0 0 {name=p17 sig_type=std_logic lab=RST
+C {devices/lab_wire.sym} 670 -490 0 0 {name=p17 sig_type=std_logic lab=RST
 }
-C {lab_wire.sym} 1560 -890 0 0 {name=p1 sig_type=std_logic lab=RST
+C {devices/lab_wire.sym} 1560 -890 0 0 {name=p1 sig_type=std_logic lab=RST
 }
-C {lab_wire.sym} 190 -1180 0 0 {name=p3 sig_type=std_logic lab=VDD
+C {devices/lab_wire.sym} 190 -1180 0 0 {name=p3 sig_type=std_logic lab=VDD
 }
-C {lab_wire.sym} 190 -370 0 0 {name=p4 sig_type=std_logic lab=GND
+C {devices/lab_wire.sym} 190 -370 0 0 {name=p4 sig_type=std_logic lab=GND
 }
-C {lab_wire.sym} 320 -60 0 0 {name=p5 sig_type=std_logic lab=GND
+C {devices/lab_wire.sym} 320 -60 0 0 {name=p5 sig_type=std_logic lab=GND
 }
-C {lab_wire.sym} 310 -330 0 0 {name=p7 sig_type=std_logic lab=VDD
+C {devices/lab_wire.sym} 310 -330 0 0 {name=p7 sig_type=std_logic lab=VDD
 }
-C {lab_wire.sym} 300 -780 0 0 {name=p8 sig_type=std_logic lab=CKB
+C {devices/lab_wire.sym} 300 -780 0 0 {name=p8 sig_type=std_logic lab=CKB
 }
-C {lab_wire.sym} 300 -890 0 0 {name=p18 sig_type=std_logic lab=CLK
+C {devices/lab_wire.sym} 300 -890 0 0 {name=p18 sig_type=std_logic lab=CLK
 }
-C {lab_wire.sym} 510 -890 0 0 {name=p19 sig_type=std_logic lab=CKB
+C {devices/lab_wire.sym} 510 -890 0 0 {name=p19 sig_type=std_logic lab=CKB
 }
-C {lab_wire.sym} 510 -780 0 0 {name=p20 sig_type=std_logic lab=CLK
+C {devices/lab_wire.sym} 510 -780 0 0 {name=p20 sig_type=std_logic lab=CLK
 }
-C {lab_wire.sym} 740 -890 0 0 {name=p21 sig_type=std_logic lab=RST
+C {devices/lab_wire.sym} 740 -890 0 0 {name=p21 sig_type=std_logic lab=RST
 }
-C {lab_wire.sym} 1010 -890 0 0 {name=p22 sig_type=std_logic lab=CKB
+C {devices/lab_wire.sym} 1010 -890 0 0 {name=p22 sig_type=std_logic lab=CKB
 }
-C {lab_wire.sym} 1010 -780 0 0 {name=p23 sig_type=std_logic lab=CLK
+C {devices/lab_wire.sym} 1010 -780 0 0 {name=p23 sig_type=std_logic lab=CLK
 }
-C {lab_wire.sym} 1270 -780 0 0 {name=p24 sig_type=std_logic lab=CKB
+C {devices/lab_wire.sym} 1270 -780 0 0 {name=p24 sig_type=std_logic lab=CKB
 }
-C {lab_wire.sym} 1270 -890 0 0 {name=p25 sig_type=std_logic lab=CLK
+C {devices/lab_wire.sym} 1270 -890 0 0 {name=p25 sig_type=std_logic lab=CLK
 }
 C {IP62LIB/MP.sym} 310 -990 0 0 {name=XM2 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
 C {IP62LIB/MP.sym} 310 -890 0 0 {name=XM1 model=PMOS w=10.2u l=1u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0}
