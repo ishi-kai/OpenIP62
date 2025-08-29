@@ -1618,8 +1618,8 @@ class MinedaLVS
     raise "You are running #{target_technology} version of 'get_reference' against #{cv.technology} layout" unless cv.technology == target_technology
     raise 'Please save the layout first' if cv.nil? || cv.filename.nil? || cv.filename == ''
     cell = cv.cell
-    netlist = QFileDialog::getOpenFileName(mw, 'Netlist file', File.dirname(cv.filename), 'netlist(*.net *.cir *.spc *.spice *.spi *.sp *.cdl)')
-    if netlist && netlist.strip != ''
+    netlist = RBA::FileDialog::ask_open_file_name("Netlist file", "", "netlist(*.net *.cir *.spc *.spice *.spi *.sp *.cdl)")
+    if netlist
       netlist = netlist.force_encoding('UTF-8')
       # netlist = '/home/seijirom/Dropbox/work/LRmasterSlice/comparator/COMP_NLF.net'
       # raise "#{netlist} does not exist!" unless File.exist? netlist
