@@ -22,6 +22,7 @@ Anagix Loader is released under the Apache 2.0 license.
 
 The copyright details are:
 
+Copyright 2025 ISHI-KAI( https://ishi-kai.org/ )
 Copyright 2023 Seijiro Moriyama (Anagix Corporation)
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,4 +38,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ## Author
+Noritsuna IMAMURA (noritsuna@ishi-kai.org)
 Seijiro Moriyama (seijiro.moriyama@anagix.com)
