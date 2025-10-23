@@ -17,7 +17,7 @@
  <dsl-interpreter-name/>
  <text>module MyMacro
   MinedaUtility::ViewDoc::view_doc $ip62_docs &amp;&amp; $ip62_docs['回路simガイドライン'] ||
-    File.join('salt/IP62/Technology/doc','OS02_回路simガイドライン_rev1.pdf')
+    File.join('salt/IP62/Technology/doc','OS02_回路simガイドライン.pdf')
   end
 
 </text>
